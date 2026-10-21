@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily 5</title>
+  <meta name="description" content="レベルに合った今日の5フレーズ">
+  <meta name="theme-color" content="#1f4d3a">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" data-go="today">Daily <span>5</span></div>
+    <div class="meta" id="meta"></div>
+    <nav>
+      <button class="nav-btn" data-go="today">今日の5</button>
+      <button class="nav-btn" data-go="settings">設定</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="keys" id="keys"></footer>
+
+  <script src="phrases.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
